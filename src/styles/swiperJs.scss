@@ -1,0 +1,67 @@
+.homepageSlider {
+  overflow: visible;
+
+  .swiper-button-prev,
+  &.swiper-container-rtl .swiper-button-next {
+    left: -16px;
+    right: auto;
+  }
+
+  .swiper-button-next,
+  &.swiper-container-rtl .swiper-button-prev {
+    right: -16px;
+    left: auto;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 45%;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(180deg, #a01aec, #cb527d, #df9361);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #fff !important;
+  font-weight: 700;
+  outline: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &::after {
+    font-size: 12px;
+    font-weight: bold !important;
+  }
+}
+
+.swiper-button-prev {
+  &:after {
+    position: relative;
+    left: -1px;
+  }
+}
+
+.swiper-button-next {
+  &:after {
+    position: relative;
+    left: 1px;
+  }
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}

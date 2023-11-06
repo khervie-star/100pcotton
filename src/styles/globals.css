@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  section h2 {
+    @apply font-poppins font-semibold gradient-text text-[26px] bg-gradient-to-br from-[#A01AEC] via-[#CB527D] to-[#DF9361] bg-clip-text fill-transparent;
+  }
+  section p,
+  section ul,
+  section ol {
+    @apply font-poppins font-normal text-gray-700;
+  }
+}
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+.gradient-text {
+  background-clip: text;
+  -webkit-bßckground-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  max-width: auto !important;
+}
+
+body {
+  font-family: Sora;
+}
+
+/* Remove Arrow from Number Input  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}
+
+/* Toggle Button Override */
+.MuiToggleButtonGroup-grouped {
+  /* width: 100px !important; */
+  border-radius: 50px !important;
+  padding: 0px 30px !important;
+  /* border: 1px solid !important; */
+  margin: 0.4em 0.875em !important;
+  text-transform: none !important;
+}
+
+.css-1gjgmky-MuiToggleButtonGroup-root
+  .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  margin-left: -1px;
+  border-left: 1px solid #b22222 !important;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* PHONE NUMBER INPUT */
+.react-tel-input .form-control {
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+  border-radius: 0px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+  border-radius: 0px !important;
+}
+
+/* Tracking Details */
+.tracking .css-1354nzp-MuiStepLabel-label.Mui-active {
+  color: #e25822 !important;
+}
+.tracking.css-1354nzp-MuiStepLabel-label {
+  color: #707070 !important;
+  font-size: 12px !important;
+  /* margin: 30px 0 !important; */
+}
+.tracking .css-ascpo7-MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: column-reverse !important;
+}
+
+/* NAVBAR SELECTED PROPERTY CSS OVERRIDE */
+.css-xhzt7v-MuiTypography-root-MuiLink-root-MuiButtonBase-root-MuiListItem-root.Mui-selected {
+  border-left: 3px solid #f1bc31;
+}
+
+.addressSelect
+  .css-1m7c5v0-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #e25822 !important;
+  border-radius: 3em !important;
+  box-shadow: 0px 10px 25px #70707026 !important;
+}
+
+.addressSelect
+  .css-1m7c5v0-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-hover
+  .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #e25822 !important;
+  border-radius: 3em !important;
+}
+
+.addressSelect .css-1389mw9-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #e25822 !important;
+}
+
+.MuiToggleButtonGroup-grouped {
+  margin-left: 0 !important;
+} /* Tracking Details */
+.tracking .css-1354nzp-MuiStepLabel-label.Mui-active {
+  color: #e25822 !important;
+}
+.tracking.css-1354nzp-MuiStepLabel-label {
+  color: #707070 !important;
+  font-size: 12px !important;
+  /* margin: 30px 0 !important; */
+}
+.tracking .css-ascpo7-MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: column-reverse !important;
+}
+
+/* NAVBAR SELECTED PROPERTY CSS OVERRIDE */
+.css-xhzt7v-MuiTypography-root-MuiLink-root-MuiButtonBase-root-MuiListItem-root.Mui-selected {
+  border-left: 3px solid #f1bc31;
+}
+
+.addressSelect
+  .css-1m7c5v0-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #e25822 !important;
+  border-radius: 3em !important;
+  box-shadow: 0px 10px 25px #70707026 !important;
+}
+
+.addressSelect
+  .css-1m7c5v0-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-hover
+  .MuiOutlinedInput-notchedOutline {
+  border: 2px solid #e25822 !important;
+  border-radius: 3em !important;
+}
+
+.addressSelect .css-1389mw9-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #e25822 !important;
+}
+
+.MuiToggleButtonGroup-grouped {
+  margin-left: 0 !important;
+}
+
+/* ORDERING */
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+/* FAILURE */
+.ui-success,
+.ui-error {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+.ui-success-circle {
+  stroke-dasharray: 260.75219024795285px, 260.75219024795285px;
+  stroke-dashoffset: 260.75219024795285px;
+  transform: rotate(220deg);
+  transform-origin: center center;
+  stroke-linecap: round;
+  animation: ani-success-circle 1s ease-in both;
+}
+.ui-success-path {
+  stroke-dasharray: 60px 64px;
+  stroke-dashoffset: 62px;
+  stroke-linecap: round;
+  animation: ani-success-path 0.4s 1s ease-in both;
+}
+
+@keyframes ani-success-circle {
+  to {
+    stroke-dashoffset: 782.2565707438586px;
+  }
+}
+
+@keyframes ani-success-path {
+  0% {
+    stroke-dashoffset: 62px;
+  }
+  65% {
+    stroke-dashoffset: -5px;
+  }
+  84% {
+    stroke-dashoffset: 4px;
+  }
+  100% {
+    stroke-dashoffset: -2px;
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(180deg, #b22222, #7c0a02); */
+  background: linear-gradient(30deg, #a01aec, #cb527d, #df9361);
+}
+
+.toggle_button {
+  outline: none;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.nav_toggle_list {
+  padding: 25px;
+  position: absolute;
+  top: 100px;
+  left: -500px;
+  width: 100vw;
+  margin: 0;
+  margin-top: -1em;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.navToggleListItem {
+  list-style: none;
+  margin-bottom: 0.75em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  font-family: Sora;
+}
+
+.navItemSelected {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 2px solid #f1bc31;
+  color: #f1bc31;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border-radius: 20px;
+  margin: 3em 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Whitepaper styles */
+section h2 {
+  color: red;
+  /* font-family: Sora; */
+  font-family: Poppins;
+}
+
+section h2 {
+  color: red;
+  /* font-family: Sora; */
+  font-family: Poppins;
+}

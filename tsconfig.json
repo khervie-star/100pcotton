@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "./*": ["../src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/dashboard/r/checkout/index.jsx", "src/Components/canvas/index.jsx", "src/pages/dashboard/r/product/[id].jsx", "src/pages/dashboard/user/profile/edit/index.jsx", "src/pages/dashboard/auctions/[id]/r/place-bid.jsx", "src/pages/dashboard/auctions/[id]/r/place-bidjsx", "src/pages/dashboard/auctions/[id]/place-bid/index.jsx", "src/pages/dashboard/auctions/[id]/o/place-bid.jsx", "src/pages/dashboard/auctions/setup/[id].jsx", "src/pages/dashboard/auctions/setup/p/[id].jsx", "src/pages/dashboard/auctions/setup/o/[id].jsx", "src/pages/dashboard/orders/index.jsx", "src/Components/auth/confirm.jsx", "src/Components/auth/register.jsx"],
+  "exclude": ["node_modules"]
+}
